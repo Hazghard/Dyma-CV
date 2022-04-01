@@ -1,0 +1,15 @@
+.title {
+  &-small {
+    letter-spacing: 0.5rem;
+    font-size: 1.7rem;
+  }
+}
+.text {
+  &-primary {
+    color: var(--text);
+    filter: drop-shadow(0 3px 2px rgba(0, 0, 0, 0.4));
+  }
+  &-hint {
+    color: var(--hint);
+  }
+}
